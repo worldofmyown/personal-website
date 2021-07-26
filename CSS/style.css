@@ -7,6 +7,11 @@ body {
     text-align: right;
 }
 
+hr {
+    width: 75%;
+    color: blueviolet;
+}
+
 #top-banner a {
     text-decoration: none;
     font-size: 20px;
@@ -37,17 +42,63 @@ body {
     display: flex;
 }
 
+.introduction p {
+    margin-top: -3%;
+}
+
 .half-width {
     width: 45%;
 }
-.introduction img{
+
+.introduction img {
     width: 100%;
 }
-.link-button{
+
+.link-button {
     background-image: linear-gradient(orange, tomato);
     text-decoration: none;
     padding: 1% 5%;
     border: 1px;
     border-radius: 3px;
     color: cornsilk;
+}
+
+.about-me img {
+    width: 100%;
+}
+
+.about-me {
+    display: flex;
+    margin-left: 3%;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.gallary h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.gallary {
+    background-color: rgb(247, 255, 255);
+}
+
+.projects {
+    display: flex;
+}
+
+.projects img {
+    width: 100%
+}
+
+.projects-picture {
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 3%;
+    box-shadow: 1px 1px 30px rgb(219, 219, 219);
 }
